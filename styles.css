@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    height: 230vh;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white_container{
+    width: 40%;
+    height: 90%;
+    background-color: hsl(0, 0%, 100%);
+    /* justify-content: center; */
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image{
+    width: 90%;
+    height: fit-content;
+    margin-top: 25px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.image img{
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 10px;
+}
+.image h1{
+    font-family: Outfit, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+.image p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Outfit sans-serif; 
+    color: hsl(30, 10%, 34%);
+}
+
+/* pink container */
+.pink_container{
+    width: 90%;
+    height: 150px;
+    position: relative;
+    top: 2%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+
+}
+.pink_container h6{
+    color: hsl(332, 51%, 32%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Outfit, sans-serif;
+    margin: 0;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.li_span_Outer{
+    margin-left: 10px;
+    color:   hsl(30, 10%, 34%);
+    font-family: Outfit,sans-serif;
+    font-size: 14px;
+
+}
+.li_span_inner{
+    font-weight: 700;
+    font-family: Outfit,sans-serif;
+}
+
+/* ingridients_container */
+.ingridients_container{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.ingridients_container h2{
+    font-family: Outfit, sans-serif;
+    color: hsl(14, 45%, 36%);
+}
+.ingridients_container ul{
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+    margin: 0;
+}
+.ingridients_container li{
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: Outfit, sans-serif;
+   
+}
+.ingridients_container li span{
+    color: hsl(30, 10%, 34%); 
+}
+.ingridient_line{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: hsl(30, 18%, 87%);
+}
+/* instruction section */
+.instruction_container{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    top: 3%;
+}
+.instruction_container h2{
+    font-family: Outfit, sans-serif;
+    color: hsl(14, 45%, 36%);
+}
+.instruction_container ol{
+    padding-left: 20px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+
+}
+.instruction_container li{
+    padding-left: 10px;
+}
+.instruction_Outer{
+    width: fit-content;
+    font-family: 'Outfit';
+    font-size: 12px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-size: 14px;
+}
+.instruction_inner{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Nutrition_container */
+.Nutrition_container{
+    width: 90%;
+    height: fit-content;
+    position: relative;
+    top: 4%;
+}
+.Nutrition_container h2{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    font-family: Outfit, sans-serif;
+    font-size: 24px;
+}
+.Nutrition_container p{
+    width: 100%;
+    font-family: Outfit,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+
+}
+.Nutrition_table{
+    width: 100%;
+    height: 200px;
+}
+.Nutrition_table table{
+    margin-top: 25px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.Nutrition_table tr{
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+   
+}
+.Nutrition_table tr:last-child {
+    border-bottom: none; /* Remove the border from the last row */
+}
+
+.Nutrition_table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.td_nutritions{
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-family: Outfit, sans-serif;
+    font-weight: 400;
+}
+.td_amount{
+    font-family: Outfit, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(14, 45%, 36%);
+}
+
+@media only screen and (max-width: 375px) {
+    .container{
+        display: contents;
+    }
+    .white_container {
+        width: 100%;
+        height: fit-content;
+        background-color: hsl(0, 0%, 100%);
+        /* justify-content: center; */
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
