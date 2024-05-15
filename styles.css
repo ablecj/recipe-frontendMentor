@@ -6,11 +6,12 @@ body{
 .container{
     width: 100%;
     max-width: 1440px;
-    height: 230vh;
+    height: 100%;
     background-color: hsl(30, 54%, 90%);
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 0;
 }
 .white_container{
     width: 40%;
